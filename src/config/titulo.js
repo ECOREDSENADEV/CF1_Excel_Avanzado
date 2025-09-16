@@ -1,1 +1,1 @@
-module.exports = 'Ecored Base PKG'
+module.exports = 'Datos con tablas dinámicas y gráficos avanzados'
