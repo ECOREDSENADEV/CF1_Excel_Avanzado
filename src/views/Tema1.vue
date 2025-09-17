@@ -16,7 +16,7 @@
       .col-lg-9.order-lg-1
         .bg-color-2.mb-5(data-aos="fade-up")
           .row.justify-content-center.align-items-center
-            .col-lg-auto.mb-3.mb-lg-0
+            .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/tema1/2.png', alt='')
             .col-lg
@@ -65,17 +65,17 @@
     p.mb-5 En Excel, se interactúa principalmente con dos tipos de estructuras tabulares:
 
     .row.justify-content-center.align-items-stretch.mb-4
-      .col-lg-3
+      .col-lg-3.mb-3.mb-lg-0
         .bg-color-5.p-3(data-aos="fade-left").h-100
           .row.align-items-center
-            .col-lg-auto
+            .col-lg-auto.mb-3.mb-lg-0
               img(src="@/assets/curso/tema1/5.svg", style="max-width: 90px").mx-auto
             .col-lg
               h5.mb-0 El rango de datos
-      .col-lg-3
+      .col-lg-3.mb-3.mb-lg-0
         .bg-color-6.p-3(data-aos="fade-left").h-100
           .row.align-items-center
-            .col-lg-auto
+            .col-lg-auto.mb-3.mb-lg-0
               img(src="@/assets/curso/tema1/6.svg", style="max-width: 90px").mx-auto
             .col-lg
               h5.mb-0 La tabla en Excel
@@ -83,7 +83,7 @@
     .bg-color-7.tarjeta.mb-5
       .px-4.px-md-5.py-4
         .row.align-items-center
-          .col-lg-auto
+          .col-lg-auto.mb-3.mb-lg-0
             img(src="@/assets/curso/tema1/7.svg", style="max-width: 90px").mx-auto
           .col-lg
             p.mb-0 Un dato tabular en Excel se refiere a información organizada en formato de tabla, es decir, dispuesta en filas y columnas, donde cada celda contiene un valor específico. Este formato es esencial para el análisis, la visualización y la manipulación de datos dentro del programa.
@@ -137,7 +137,7 @@
                 td 1/08/2025
                 td 100
                 td $0.50
-              tr.bg-color-9
+              tr
                 td Cuaderno
                 td 2/08/2025
                 td 50
@@ -166,7 +166,7 @@
       .col-lg-10
         .bg-color-9.mb-5(data-aos="fade-up")
           .row.justify-content-center.align-items-center
-            .col-lg-auto.mb-3.mb-lg-0
+            .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/tema1/11.png', alt='')
             .col-lg
@@ -190,7 +190,7 @@
       .col-lg-10
         .bg-color-3.mb-5(data-aos="fade-up")
           .row.justify-content-center.align-items-center
-            .col-lg-auto.mb-3.mb-lg-0.order-lg-2
+            .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0.order-lg-2
               figure
                 img(src='@/assets/curso/tema1/12.png', alt='')
             .col-lg.order-lg-1
@@ -245,13 +245,13 @@
                 i.fa-solid.fa-circle-right.bg-color-10
                 p.mb-0 Definir estructura y formato según las necesidades del análisis.
 
-    h3.text-white.bg-color-4.d-inline.p-3.tarjeta A partir de un rango de datos existente
+    h3.text-white.bg-color-4.d-md-inline.p-3.tarjeta A partir de un rango de datos existente
 
     p.mb-5.mt-5 A continuación, se detalla el procedimiento específico para crear una tabla a partir de un rango de datos ya existente:
 
     .bg-color-6.mb-5(data-aos="fade-up")
       .row.justify-content-center.align-items-center
-        .col-lg-auto.mb-3.mb-lg-0.order-lg-2
+        .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0.order-lg-2
           figure
             img(src='@/assets/curso/tema1/14.png', alt='')
         .col-lg.order-lg-1
@@ -303,7 +303,7 @@
                 i.fa-solid.fa-circle-right.bg-color-10
                 p.mb-0 <b>Encabezados automáticos</b>: si no se activa la opción “La tabla tiene encabezados”, Excel asignará nombres por defecto como Columna1, Columna2, etc., los cuales podrán modificarse posteriormente.
     
-    h3.text-white.bg-color-4.d-inline.p-3.tarjeta Creación de una tabla importando datos
+    h3.text-white.bg-color-4.d-md-inline.p-3.tarjeta Creación de una tabla importando datos
 
     p.mb-5.mt-5 Otra forma de generar una tabla en Excel consiste en importar datos desde fuentes externas. En el siguiente video se explica cómo crear una tabla a partir de un archivo en formato .csv:
 
@@ -311,7 +311,7 @@
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-    h3.text-white.bg-color-4.d-inline.p-3.tarjeta Consideraciones para la definición de tablas
+    h3.text-white.bg-color-4.d-md-inline.p-3.tarjeta Consideraciones para la definición de tablas
 
     p.mb-5.mt-5 Independientemente del método utilizado para crear la tabla, es recomendable tener en cuenta ciertos aspectos clave relacionados con la definición de estructura y diseño lógico. A continuación, se presentan las principales etapas del proceso:
 
@@ -434,13 +434,13 @@
     p.mb-5.mt-5 Excel también proporciona herramientas útiles para la gestión avanzada de la tabla. A continuación se describen dos de las más relevantes:
 
     .row.justify-content-center.align-items-stretch.mb-5
-      .col-lg-5
+      .col-lg-5.mb-3.mb-lg-0
         .bg-color-5.h-100
           .bg-color-2.px-4.px-lg-5.py-3.rounded-top
             h4.mb-0.text-center Quitar duplicados
           p.mb-0.p-4 Permite eliminar filas que contienen datos idénticos en una o varias columnas seleccionadas. Es ideal para limpiar datos y evitar repeticiones.
 
-      .col-lg-5
+      .col-lg-5.mb-3.mb-lg-0
         .bg-color-6.h-100
           .bg-color-12.px-4.px-lg-5.py-3.rounded-top
             h4.mb-0.text-center Convertir en rango

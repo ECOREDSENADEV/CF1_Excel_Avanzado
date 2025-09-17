@@ -23,7 +23,7 @@
 
     .bg-full-width.bg-fondo-1
       .px-4.px-md-5.pb-md-3
-        SlyderF(columnas="col-12 col-lg-4").p-5.mb-5
+        SlyderF(columnas="col-12 col-lg-4").p-3.p-md-5.mb-5
           .bg-color-white.p-4.h-100.shadow-app
             img(src='@/assets/curso/tema2/2.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
             h4.text-center.mb-4 General
@@ -186,7 +186,7 @@
 
     .bg-full-width.bg-fondo-2
       .px-4.px-md-5.pb-md-3
-        SlyderF(columnas="col-12 col-lg-4").p-5.mb-5
+        SlyderF(columnas="col-12 col-lg-4").p-3.p-md-5.mb-5
           .bg-color-6.p-4.h-100.shadow-app
             img(src='@/assets/curso/tema2/18.svg' alt='AvatarTop' , style="max-width: 100px").mx-auto.mb-3
             h4.text-center.mb-4 Demográfica

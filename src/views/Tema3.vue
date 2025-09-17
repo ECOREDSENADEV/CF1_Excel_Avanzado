@@ -9,7 +9,7 @@
     
     .bg-color-3.mb-5(data-aos="fade-up")
       .row.justify-content-center.align-items-center
-        .col-lg-auto.mb-3.mb-lg-0
+        .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
           figure
             img(src='@/assets/curso/tema3/1.png', alt='')
         .col-lg
@@ -118,7 +118,7 @@
     
     p.mb-5 La ordenación organiza los datos según criterios específicos, facilitando su análisis, lectura y presentación. Dependiendo de la complejidad del conjunto de datos, se pueden aplicar diversos enfoques:
 
-    SlyderF(columnas="col-12 col-lg-4").p-5.mb-5
+    SlyderF(columnas="col-12 col-lg-4").p-3.p-md-5.mb-5
       .bg-color-6.p-4.h-100.shadow-app
         img(src='@/assets/curso/tema3/9.svg' alt='AvatarTop' , style="max-width: 100px").mx-auto.mb-3
         h4.text-center.mb-4 Ordenación simple
@@ -144,13 +144,11 @@
     
     #t_3_5.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 3.5 Eliminación
-    
-    
-
+  
     .bg-full-width-2.bg-fondo-1
       .px-4.px-md-5.pb-md-3
         p.mb-5 La eliminación de datos es una operación crítica que debe realizarse con precaución para evitar la pérdida de información relevante o la alteración de relaciones entre datos. Existen varias estrategias según el tipo de limpieza o depuración que se requiera:
-        SlyderF(columnas="col-12 col-lg-4").p-5.mb-5
+        SlyderF(columnas="col-12 col-lg-4").p-3.p-md-5.mb-5
           .bg-color-white.p-4.h-100.shadow-app
             img(src='@/assets/curso/tema3/10.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
             h4.text-center.mb-4 Eliminación de duplicados

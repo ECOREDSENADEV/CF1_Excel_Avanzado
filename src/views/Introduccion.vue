@@ -20,7 +20,7 @@
     .bg-color-1.tarjeta.mb-5
       .px-4.px-md-5.py-4
         .row.align-items-center
-          .col-lg-auto
+          .col-lg-auto.mb-3.mb-lg-0
             img(src="@/assets/curso/intro/2.svg", style="max-width: 90px").mx-auto
           .col-lg
             p.mb-0 En consecuencia, los datos no solo representan un recurso disponible, sino un activo estratégico que, bien administrado, puede impulsar la innovación, optimizar el rendimiento organizacional y redefinir la manera en que se toman decisiones.
