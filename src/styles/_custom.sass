@@ -48,9 +48,27 @@ figcaption
   &-1
     background-color: #E4F9EA
   &-2
-    background-color: #FFE69B
+    background-color: #FBE4A3
   &-3
-    background-color: #D5D1E2
+    background-color: #D0D1DC
+  &-4
+    background-color: #1A1F53
+  &-5
+    background-color: #FDF1D0
+  &-6
+    background-color: #CBF5D7 !important
+  &-7
+    background-color: #E6E7EC
+  &-8
+    background-color: #F6BC1C
+  &-9
+    background-color: #CBF5D7
+  &-10
+    color: #1A1F53 !important
+  &-11
+    background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(254, 247, 230, 1) 30%, rgba(254, 247, 230, 1) 70%, rgba(255, 255, 255, 1) 100%)
+  &-12
+    background-color: #98EBB0
   &-white
     background-color: white !important
     border: 1px solid $lightest-gray
@@ -74,16 +92,90 @@ figcaption
 
 ///////////FondoImg//////////////////
 .bg-fondo
-  //&-1
+  &-1
     background-image: url("../assets/curso/bg1.svg") !important
     background-position: bottom
     background-repeat: no-repeat
     background-size: cover
-  //&-2
+  &-2
     background-image: url("../assets/curso/bg2.svg") !important
     background-position: bottom
     background-repeat: no-repeat
     background-size: cover
-  //&-slider
+  &-slider
     background-image: url("../assets/curso/bg-slider.png") !important
     background-position: bottom
+
+/////////////ACORDION/////////////
+.acordion__accion__btn--a
+  background-color: #FF8000 !important
+.acordion__activo
+  background-color:  #FBE4A3 !important
+.acordion_titulo
+  color: #fff !important
+.acordion__titulo 
+  h3
+    color: white !important
+.acordion__activo
+  .acordion__titulo 
+    h3
+      color: $color-sistema-texto !important
+    
+//CLASES TITULOS//
+.titulo-con-imagen
+  display: flex
+  align-items: center
+  position: relative
+.titulo-con-imagen__fondo
+  background-color: #F6BC1C
+  border-radius: 10px
+  padding: 10px 20px
+  display: inline-flex
+  align-items: center
+.titulo-con-imagen__imagen
+  position: absolute
+  left: 10px
+  width: 50px
+  bottom: 0
+.titulo-con-imagen__texto
+  margin: 0
+  padding-left: 50px
+
+//////////////CUSTON SLYDER-A////////
+.slyder-a__bullets__item 
+  background-color: #A6D8B4
+  border: #A6D8B4
+.slyder-a__bullets__item--active
+  background-color: #008F29
+.slyder-a__btn--atrs, .slyder-a__btn--sigt
+  background-color: #FF8000
+
+////////SOMBRA CAJON//////////
+.shadow-app
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  padding: 20px;
+  border-radius: 8px; /* Opcional, para bordes redondeados */
+
+//////////CUSTOM BOTONES SLYDER-F/////////
+.slyder-f__btn
+  height: 35px
+  width: 35px
+  max-width: 35px
+  background-color: $color-acento-botones
+  border-radius: 50%
+  padding: 0 !important
+  margin: 0 auto
+  .fa-chevron-left
+    font-size: 20px
+  .fa-chevron-right
+    font-size: 20px
+  
+.slyder-f
+    align-items: center
+
+    .slyder-f__main
+      width: 70%
+
+      @media (min-width: 769px)
+        width: 80%
